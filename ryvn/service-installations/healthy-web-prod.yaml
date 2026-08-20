@@ -5,9 +5,7 @@ spec:
   service: healthy-web
   environment: production
   namespace: default
-  resources:
-    cpuCores: 0.5
-    memoryMB: 512
+  config: ../configs/values.yaml
   env:
     - key: LOG_LEVEL
       value: debug
