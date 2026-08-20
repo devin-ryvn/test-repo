@@ -1,0 +1,5 @@
+kind: ReleaseChannel
+metadata:
+  name: default
+spec:
+  isDefault: true

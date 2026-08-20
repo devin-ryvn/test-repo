@@ -1,0 +1,6 @@
+kind: Service
+metadata:
+  name: broken-api
+spec:
+  type: server
+  image: ghcr.io/devin-ryvn/broken-api

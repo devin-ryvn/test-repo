@@ -1,0 +1,10 @@
+kind: ServiceInstallation
+metadata:
+  name: broken-api-prod
+spec:
+  service: broken-api
+  environment: production
+  namespace: default
+  env:
+    - key: OPENAI_API_KEY
+      isSecret: true

@@ -1,0 +1,6 @@
+kind: Service
+metadata:
+  name: healthy-web
+spec:
+  type: server
+  image: ghcr.io/devin-ryvn/healthy-web
