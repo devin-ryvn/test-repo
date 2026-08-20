@@ -5,7 +5,11 @@ spec:
   service: broken-api
   environment: production
   namespace: default
-  config: ../configs/values.yaml
+  config: |
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "128Mi"
   env:
     - key: APP_MODE
       value: api
