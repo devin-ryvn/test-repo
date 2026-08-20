@@ -13,5 +13,3 @@ spec:
   env:
     - key: APP_MODE
       value: api
-    - key: DATABASE_URL
-      orgSecret: shared-db
