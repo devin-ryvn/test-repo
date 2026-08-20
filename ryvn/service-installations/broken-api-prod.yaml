@@ -13,5 +13,5 @@ spec:
   env:
     - key: APP_MODE
       value: api
-    - key: OPENAI_API_KEY
-      isSecret: true
+    - key: DATABASE_URL
+      orgSecret: shared-db
