@@ -13,3 +13,5 @@ spec:
   env:
     - key: APP_MODE
       value: api
+    - key: OPENAI_API_KEY
+      isSecret: true
