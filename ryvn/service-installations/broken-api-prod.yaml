@@ -5,6 +5,9 @@ spec:
   service: broken-api
   environment: production
   namespace: default
+  resources:
+    cpuCores: 0.5
+    memoryMB: 512
   env:
-    - key: OPENAI_API_KEY
-      isSecret: true
+    - key: APP_MODE
+      value: api
